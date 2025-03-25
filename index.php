@@ -93,27 +93,42 @@
     </div>
     </section>
 
-  <!-- Contact Section -->
-  <section class="bg-[#f4ede4] py-16 px-4">
+    <!-- Contact Section -->
+    <section class="bg-[#f4ede4] py-16 px-4">
     <h2 class="text-4xl font-bold text-center mb-10">Contact</h2>
-    <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-8">
-      <iframe src="https://maps.google.com/maps?q=17%20Avenue%20des%20Jardins,%2078000,%20France&t=&z=13&ie=UTF8&iwloc=&output=embed" class="w-full h-96 rounded-2xl shadow-lg border-0"></iframe>
-      <div class="bg-white rounded-2xl shadow-lg p-8">
-        <form>
-          <input type="text" placeholder="First Name" class="w-full p-3 border rounded-xl mb-4">
-          <input type="text" placeholder="Last Name" class="w-full p-3 border rounded-xl mb-4">
-          <input type="email" placeholder="Email" class="w-full p-3 border rounded-xl mb-4">
-          <textarea placeholder="Message" class="w-full p-3 border rounded-xl mb-4 h-32"></textarea>
-          <button class="bg-[#1B365D] hover:bg-[#142846] text-white px-6 py-3 rounded-2xl shadow-lg transition">Send</button>
-        </form>
-        <div class="mt-6">
-          <p class="text-lg"><strong>Email:</strong> consultation@ittechservices.com</p>
-          <p class="text-lg"><strong>Phone:</strong> +33 1 23 45 67 89</p>
-          <p class="text-lg"><strong>Address:</strong> 17 Avenue des Jardins, 78000, France</p>
+    <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-8 items-stretch">
+        <div class="relative w-full h-full">
+        <iframe src="https://maps.google.com/maps?q=17%20Avenue%20des%20Jardins,%2078000,%20France&t=&z=13&ie=UTF8&iwloc=&output=embed" class="w-full h-full min-h-[500px] rounded-2xl shadow-lg border-0"></iframe>
+        <div class="absolute bottom-4 left-4 bg-white bg-opacity-90 rounded-xl p-4 shadow-lg">
+            <p class="text-lg mb-1"><strong>Email:</strong> consultation@ittechservices.com</p>
+            <p class="text-lg mb-1"><strong>Phone:</strong> +33 1 23 45 67 89</p>
+            <p class="text-lg"><strong>Address:</strong> 17 Avenue des Jardins, 78000, France</p>
         </div>
-      </div>
+        </div>
+        <div class="bg-white rounded-2xl shadow-lg p-8 flex flex-col justify-center">
+        <!-- Contact Form -->
+        <form action="contact.php" method="POST">
+            <div class="mb-4">
+                <label for="lastName" class="block mb-2">Last Name</label>
+                <input type="text" id="lastName" name="lastName" class="w-full p-2 border rounded-lg">
+            </div>
+            <div class="mb-4">
+                <label for="firstName" class="block mb-2">First Name</label>
+                <input type="text" id="firstName" name="firstName" class="w-full p-2 border rounded-lg">
+            </div>
+            <div class="mb-4">
+                <label for="email" class="block mb-2">Email</label>
+                <input type="email" id="email" name="email" class="w-full p-2 border rounded-lg">
+            </div>
+            <div class="mb-4">
+                <label for="message" class="block mb-2">Message</label>
+                <textarea id="message" name="message" rows="4" class="w-full p-2 border rounded-lg"></textarea>
+            </div>
+            <button type="submit" class="bg-blue-600 text-white py-2 px-4 rounded-lg hover:bg-blue-700 transition">Send</button>
+        </form>
+        </div>
     </div>
-  </section>
+    </section>
 
   <!-- Final Block -->
   <section class="relative h-72 bg-cover bg-center" style="background-image: url('final-background.jpg')">
