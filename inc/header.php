@@ -33,7 +33,52 @@
             opacity: 1;
         }
     </style>
-    
+    <style>
+    .fade-in {
+      opacity: 0;
+      transform: translateY(20px);
+      transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+    }
+    .fade-in.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    .gold-hover {
+      position: relative;
+      overflow: hidden;
+      cursor: pointer;
+    }
+    .gold-hover img {
+      transition: transform 0.5s, filter 0.5s;
+    }
+    .gold-hover:hover img {
+      transform: scale(1.05);
+      filter: brightness(0.7);
+    }
+    .info-overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.5);
+      color: white;
+      opacity: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      transition: opacity 0.5s;
+      padding: 20px;
+      text-align: center;
+    }
+    .gold-hover:hover .info-overlay {
+      opacity: 1;
+    }
+    .gradient-bg {
+      background: radial-gradient(circle at 30% 30%, #f4ede4, #fffaf0);
+    }
+  </style>
 </head>
 <body class="bg-[#f8f8f8] text-gray-800 font-sans antialiased">
     <!-- Navigation -->

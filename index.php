@@ -1,6 +1,6 @@
 <?php include 'inc/header.php'; ?>
   <!-- Hero Section -->
-  <section class="relative h-screen bg-cover bg-center" style="background-image: url('your-hero-image.jpg')">
+  <section class="relative h-screen bg-cover bg-center" style="background-image: url('/images/test.png')">
     <div class="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-center items-center text-center p-4">
       <h1 class="text-5xl md:text-7xl font-bold text-white mb-4">A Royal Heritage of Art and Architecture</h1>
       <p class="text-xl md:text-2xl text-white mb-8">Discover the beauty of French classicism, gardens and history</p>
@@ -13,17 +13,44 @@
     <h2 class="text-4xl font-bold mb-6">About the Estate</h2>
     <p class="text-lg leading-relaxed">This magnificent estate represents centuries of artistic achievement, grand architecture, and breathtaking gardens that continue to inspire visitors from around the world. Walk through history and experience timeless beauty in every detail.</p>
   </section>
-
+  <!-- Example Section with Animated Overlay -->
+  <section class="gradient-bg py-20 px-4 fade-in">
+    <h1 class="text-5xl font-bold text-center mb-8 text-[#4b2c20]">Welcome to a Palace of Elegance</h1>
+    <p class="text-center text-xl max-w-2xl mx-auto mb-12 text-[#5b3d2e]">Discover timeless beauty, exquisite gardens, and magnificent architecture.</p>
+    <div class="max-w-6xl mx-auto grid md:grid-cols-3 gap-8">
+      <a href="page1.html" class="gold-hover rounded-2xl shadow-xl">
+        <img src="/images/test.png" alt="Highlight 1" class="rounded-2xl w-full h-full object-cover">
+        <div class="info-overlay rounded-2xl">
+          <h3 class="text-2xl font-bold mb-2">Grand Halls</h3>
+          <p>Explore the majestic halls filled with history and opulence.</p>
+        </div>
+      </a>
+      <a href="page2.html" class="gold-hover rounded-2xl shadow-xl">
+        <img src="/images/test.png" alt="Highlight 2" class="rounded-2xl w-full h-full object-cover">
+        <div class="info-overlay rounded-2xl">
+          <h3 class="text-2xl font-bold mb-2">Royal Gardens</h3>
+          <p>Stroll through perfectly manicured gardens and serene pathways.</p>
+        </div>
+      </a>
+      <a href="page3.html" class="gold-hover rounded-2xl shadow-xl">
+        <img src="/images/test.png" alt="Highlight 3" class="rounded-2xl w-full h-full object-cover">
+        <div class="info-overlay rounded-2xl">
+          <h3 class="text-2xl font-bold mb-2">Architectural Marvels</h3>
+          <p>Admire the intricate designs and timeless beauty of the palace.</p>
+        </div>
+      </a>
+    </div>
+  </section>
   <!-- Gallery Section -->
   <section class="max-w-6xl mx-auto py-16 px-4">
     <h2 class="text-4xl font-bold text-center mb-10">Gallery</h2>
     <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
-      <img src="gallery1.jpg" alt="Gallery Image" class="rounded-2xl shadow-lg hover:scale-105 transition">
-      <img src="gallery2.jpg" alt="Gallery Image" class="rounded-2xl shadow-lg hover:scale-105 transition">
-      <img src="gallery3.jpg" alt="Gallery Image" class="rounded-2xl shadow-lg hover:scale-105 transition">
-      <img src="gallery4.jpg" alt="Gallery Image" class="rounded-2xl shadow-lg hover:scale-105 transition">
-      <img src="gallery5.jpg" alt="Gallery Image" class="rounded-2xl shadow-lg hover:scale-105 transition">
-      <img src="gallery6.jpg" alt="Gallery Image" class="rounded-2xl shadow-lg hover:scale-105 transition">
+      <img src="/images/test.png" alt="Gallery Image" class="rounded-2xl shadow-lg hover:scale-105 transition">
+      <img src="/images/test.png" alt="Gallery Image" class="rounded-2xl shadow-lg hover:scale-105 transition">
+      <img src="/images/test.png" alt="Gallery Image" class="rounded-2xl shadow-lg hover:scale-105 transition">
+      <img src="/images/test.png" alt="Gallery Image" class="rounded-2xl shadow-lg hover:scale-105 transition">
+      <img src="/images/test.png" alt="Gallery Image" class="rounded-2xl shadow-lg hover:scale-105 transition">
+      <img src="/images/test.png" alt="Gallery Image" class="rounded-2xl shadow-lg hover:scale-105 transition">
     </div>
   </section>
 
@@ -55,7 +82,7 @@
     <h2 class="text-4xl font-bold text-center mb-10">Architectural Highlights</h2>
     <div class="grid md:grid-cols-2 gap-8">
         <a href="detail1.html" class="relative group">
-        <img src="detail1.jpg" alt="Architectural detail" class="rounded-2xl shadow-lg group-hover:opacity-80 transition">
+        <img src="/images/test.png" alt="Architectural detail" class="rounded-2xl shadow-lg group-hover:opacity-80 transition">
         <div class="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent opacity-0 group-hover:opacity-100 transition rounded-2xl flex items-end p-4">
             <div class="text-white">
             <h3 class="text-xl font-semibold mb-1">Grand Staircase</h3>
@@ -64,7 +91,7 @@
         </div>
         </a>
         <a href="detail2.html" class="relative group">
-        <img src="detail2.jpg" alt="Architectural detail" class="rounded-2xl shadow-lg group-hover:opacity-80 transition">
+        <img src="/images/test.png" alt="Architectural detail" class="rounded-2xl shadow-lg group-hover:opacity-80 transition">
         <div class="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent opacity-0 group-hover:opacity-100 transition rounded-2xl flex items-end p-4">
             <div class="text-white">
             <h3 class="text-xl font-semibold mb-1">Royal Gardens</h3>
@@ -73,7 +100,7 @@
         </div>
         </a>
         <a href="detail3.html" class="relative group">
-        <img src="detail3.jpg" alt="Architectural detail" class="rounded-2xl shadow-lg group-hover:opacity-80 transition">
+        <img src="/images/test.png" alt="Architectural detail" class="rounded-2xl shadow-lg group-hover:opacity-80 transition">
         <div class="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent opacity-0 group-hover:opacity-100 transition rounded-2xl flex items-end p-4">
             <div class="text-white">
             <h3 class="text-xl font-semibold mb-1">Hall of Mirrors</h3>
@@ -82,7 +109,7 @@
         </div>
         </a>
         <a href="detail4.html" class="relative group">
-        <img src="detail4.jpg" alt="Architectural detail" class="rounded-2xl shadow-lg group-hover:opacity-80 transition">
+        <img src="/images/test.png" alt="Architectural detail" class="rounded-2xl shadow-lg group-hover:opacity-80 transition">
         <div class="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent opacity-0 group-hover:opacity-100 transition rounded-2xl flex items-end p-4">
             <div class="text-white">
             <h3 class="text-xl font-semibold mb-1">Golden Gate</h3>
@@ -92,7 +119,6 @@
         </a>
     </div>
     </section>
-
     <!-- Contact Section -->
     <section class="bg-[#f4ede4] py-16 px-4">
     <h2 class="text-4xl font-bold text-center mb-10">Contact</h2>
