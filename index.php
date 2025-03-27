@@ -15,7 +15,7 @@
   </section>
 
   <!-- Example Section with Animated Overlay -->
-  <section class="gradient-bg py-20 px-4 fade-in">
+  <section id="explorer" class="gradient-bg py-20 px-4 fade-in">
     <h1 class="text-5xl font-bold text-center mb-8 text-[#4b2c20]">Bienvenue dans un palais d'élégance</h1>
     <p class="text-center text-xl max-w-2xl mx-auto mb-12 text-[#5b3d2e]">Découvrez la beauté intemporelle, des jardins exquis et une architecture magnifique.</p>
     <div class="max-w-6xl mx-auto grid md:grid-cols-3 gap-8">

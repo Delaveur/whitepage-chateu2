@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Explore the rich history and remarkable collection of The French Museum, showcasing masterpieces of 19th and 20th-century art. Immerse yourself in a journey through the evolution of artistic movements.">
-    <meta name="keywords" content="French art museum, 19th century art, modern art, impressionism, symbolism, romanticism, surrealism, classic art, art history, art exhibitions, famous art collections">
+    <meta name="description" content="Explore Le Grand Palais, a stunning historical site offering captivating exhibitions and insights into art, culture, and history in France. Visit us for an enriching experience." />
+    <meta name="keywords" content="Le Grand Palais, palace, Versailles, art exhibitions, cultural heritage, history, France, museum, art, cultural site, historical site" />
     <link rel="icon" href="/favicon.ico" type="image/x-icon">
-    <title><?php echo isset($page_title) ? htmlspecialchars($page_title) : 'The French Museum'; ?></title>
+    <title><?php echo isset($page_title) ? htmlspecialchars($page_title) : 'Le Grand Palais'; ?></title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
         document.addEventListener('DOMContentLoaded', function() {
@@ -85,16 +85,15 @@
     <nav class="bg-white shadow-sm">
         <div class="container mx-auto px-4">
             <div class="flex justify-between items-center h-16">
-                <a href="/" class="text-2xl font-bold text-blue-600">The French Museum</a>
-                
+                <a href="/" class="text-2xl font-bold text-blue-600">Le Grand Palais</a>
                 <!-- Desktop menu -->
                 <div class="hidden md:flex space-x-8">
-                    <a href="/about/" class="hover:text-blue-600">About Us</a>
-                    <a href="/en/whats-on/" class="hover:text-blue-600">What's on</a>
-                    <a href="/en/visit/" class="hover:text-blue-600">Visiting Information</a>
-                    <a href="/en/visit/admission-opening-times-tickets/" class="hover:text-blue-600">Admission</a>
-                    <a href="/en/collections/" class="hover:text-blue-600">Collections</a>
-                    <a href="/contacts/" class="hover:text-blue-600">Contacts</a>
+                    <a href="/decouvrir/histoire/" class="hover:text-blue-600">Histoire</a>
+                    <a href="/preparer-ma-visite/" class="hover:text-blue-600">Préparer ma visite</a>
+                    <a href="/preparer-ma-visite/informations-pratiques/" class="hover:text-blue-600">Informations Pratiques</a>
+                    <a href="/preparer-ma-visite/billets-tarifs/" class="hover:text-blue-600">Billets & Tarifs</a>
+                    <a href="/#explorer" class="hover:text-blue-600">Explorer</a>
+                    <a href="/#contacts" class="hover:text-blue-600">Contacts</a>
                 </div>
 
                 <!-- Mobile button -->
@@ -129,37 +128,37 @@
             class="md:hidden hidden absolute w-full bg-white shadow-lg py-2 z-40"
         >
             <a 
-                href="/about/" 
+                href="/decouvrir/histoire/" 
                 class="block px-4 py-3 text-gray-700 hover:bg-blue-50 hover:text-blue-600"
             >
-                About Us
+                Histoire
             </a>
             <a 
-                href="/en/whats-on/" 
+                href="/preparer-ma-visite/" 
                 class="block px-4 py-3 text-gray-700 hover:bg-blue-50 hover:text-blue-600"
             >
-                What's on
+                Préparer ma visite
             </a>
             <a 
-                href="/en/visit/" 
+                href="/preparer-ma-visite/informations-pratiques/" 
                 class="block px-4 py-3 text-gray-700 hover:bg-blue-50 hover:text-blue-600"
             >
-                Visiting Information
+                Informations Pratiques
             </a>
             <a 
-                href="/en/visit/admission-opening-times-tickets/" 
+                href="/preparer-ma-visite/billets-tarifs/" 
                 class="block px-4 py-3 text-gray-700 hover:bg-blue-50 hover:text-blue-600"
             >
-                Admission
+                Billets & Tarifs
             </a>
             <a 
-                href="/en/collections/" 
+                href="/#explorer" 
                 class="block px-4 py-3 text-gray-700 hover:bg-blue-50 hover:text-blue-600"
             >
-                Collections
+                Explorer
             </a>
             <a 
-                href="/contacts/" 
+                href="/#contacts" 
                 class="block px-4 py-3 text-gray-700 hover:bg-blue-50 hover:text-blue-600"
             >
                 Contacts
