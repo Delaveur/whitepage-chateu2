@@ -120,7 +120,7 @@
     </div>
     </section>
     <!-- Contact Section -->
-    <section class="bg-[#f4ede4] py-16 px-4">
+    <section id="contacts" class="bg-[#f4ede4] py-16 px-4">
     <h2 class="text-4xl font-bold text-center mb-10">Contact</h2>
     <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-8 items-stretch">
         <div class="relative w-full h-full">
