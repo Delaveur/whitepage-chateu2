@@ -30,7 +30,7 @@
         <!-- Cookies Notice -->
         <div id="cookie-notice" class="fixed bottom-0 left-0 w-full bg-gray-800 text-white p-4 text-center" style="display: none;">
         <p>Nous utilisons des cookies pour améliorer votre expérience. En continuant, vous acceptez notre <a href="/privacy.php" class="text-blue-400 underline">Politique de confidentialité</a>.</p>
-        <button id="accept-cookies" class="bg-blue-500 text-white px-4 py-2 rounded mt-2">Accept</button>
+        <button id="accept-cookies" class="bg-blue-500 text-white px-4 py-2 rounded mt-2">Accepter</button>
     </div>
     <script>
         const cookieNotice = document.getElementById('cookie-notice');
