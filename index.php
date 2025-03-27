@@ -123,15 +123,15 @@
   </section>
 
   <!-- Contact Section -->
-  <section class="bg-[#f4ede4] py-16 px-4">
+  <section id="contacts" class="bg-[#f4ede4] py-16 px-4">
     <h2 class="text-4xl font-bold text-center mb-10">Contact</h2>
     <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-8 items-stretch">
       <div class="relative w-full h-full">
-        <iframe src="https://maps.google.com/maps?q=17%20Avenue%20des%20Jardins,%2078000,%20France&t=&z=13&ie=UTF8&iwloc=&output=embed" class="w-full h-full min-h-[500px] rounded-2xl shadow-lg border-0"></iframe>
+        <iframe src="https://maps.google.com/maps?q=15%20Rue%20du%20Général%20Leclerc,%2078000%20Versailles,%20France&t=&z=13&ie=UTF8&iwloc=&output=embed" class="w-full h-full min-h-[500px] rounded-2xl shadow-lg border-0"></iframe>
         <div class="absolute bottom-4 left-4 bg-white bg-opacity-90 rounded-xl p-4 shadow-lg">
           <p class="text-lg mb-1"><strong>Email:</strong> consultation@ittechservices.com</p>
-          <p class="text-lg mb-1"><strong>Phone:</strong> +33 1 23 45 67 89</p>
-          <p class="text-lg"><strong>Address:</strong> 17 Avenue des Jardins, 78000, France</p>
+          <p class="text-lg mb-1"><strong>Phone:</strong> +33 6 72 58 39 14</p>
+          <p class="text-lg"><strong>Address:</strong> 15 Rue du Général Leclerc, 78000, Versailles, France</p>
         </div>
       </div>
       <div class="bg-white rounded-2xl shadow-lg p-8 flex flex-col justify-center">
