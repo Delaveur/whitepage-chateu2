@@ -5,7 +5,7 @@ include($_SERVER["DOCUMENT_ROOT"] . "/inc/header.php"); ?>
     <div class="max-w-4xl mx-auto text-center">
       <h1 class="text-5xl font-bold mb-6 text-[#4b2c20]">La Galerie des Glaces</h1>
       <p class="text-xl mb-10 text-[#5b3d2e]">Entrez dans la somptuosité d'une galerie où miroirs et lumières se répondent dans un éclat majestueux.</p>
-      <img src="inner-photo.jpg" alt="Galerie des Glaces" class="w-full rounded-2xl shadow-2xl mb-10">
+      <img src="/images/galerie.png" alt="Galerie des Glaces" class="w-full rounded-2xl shadow-2xl mb-10">
       <div class="space-y-10">
         <p class="text-lg leading-8 text-justify mb-8">La célèbre galerie, longue de 73 mètres, est ornée de 357 miroirs reflétant la lumière naturelle provenant des grandes fenêtres qui donnent sur les jardins. Les dorures étincelantes, les voûtes peintes et les lustres en cristal témoignent du raffinement et de la puissance de la monarchie française.</p>
 
