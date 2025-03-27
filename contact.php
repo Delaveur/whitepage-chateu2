@@ -15,8 +15,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     }
 
     file_put_contents($fileName, $content);
-    echo "<p>Message sent successfully! Thank you for your comments.</p>";
+    echo "<p>Message envoyé avec succès! Merci pour vos commentaires.</p>";
 } else {
-    echo "<p>Error: The Form was not submitted correctly.</p>";
+    echo "<p>Erreur: Le formulaire n'a pas été soumis correctement.</p>";
 }
 ?>
