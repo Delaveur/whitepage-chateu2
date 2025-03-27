@@ -1,5 +1,5 @@
 <?php
-$page_title = "Contact Us";
+$page_title = "La Galerie des Glaces";
 include($_SERVER["DOCUMENT_ROOT"] . "/inc/header.php"); ?>
 <section class="py-20 px-4 fade-in">
     <div class="max-w-4xl mx-auto text-center">
