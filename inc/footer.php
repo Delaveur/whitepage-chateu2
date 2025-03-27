@@ -2,28 +2,29 @@
         <div class="container mx-auto px-4 py-8">
             <div class="grid md:grid-cols-3 gap-8">
                 <div>
-                    <h4 class="text-xl font-bold mb-4">About the Project</h4>
-                    <p class="text-gray-400">This is an informational portal by IT TECH SERVICES & CONSULTATION LTD, dedicated to one of the most renowned art museums in France. Here, you will find insights, historical facts, and updates about its collections and exhibitions. Our goal is to provide an engaging and informative experience for all art enthusiasts.</p>
+                    <h4 class="text-xl font-bold mb-4">En savoir plus sur le projet</h4>
+                    <p class="text-gray-400">Il s'agit d'un portail informatif par IT TECH SERVICES & CONSULTATION LTD, consacré à l'un des sites les plus emblématiques de France. Ici, vous découvrirez des informations historiques, des détails fascinants sur son architecture et ses jardins, ainsi que des mises à jour sur ses expositions et événements. Notre objectif est de créer une expérience immersive pour tous ceux qui souhaitent explorer la majesté et l'héritage du Grand Palais.</p>
                 </div>
                 <div>
-                    <h4 class="text-xl font-bold mb-4">Navigation</h4>
-                    <ul class="space-y-2">
-                        <li><a href="/" class="hover:text-blue-400">Main</a></li>
-                        <li><a href="/about/" class="hover:text-blue-400">About</a></li>
-                        <li><a href="/contacts/" class="hover:text-blue-400">Contacts</a></li>
-                        <li><a href="/privacy.php" class="hover:text-blue-400">Privacy policy</a></li>
-                        <li><a href="/terms.php" class="hover:text-blue-400">Terms of conduct</a></li>
-                    </ul>
+                  <h4 class="text-xl font-bold mb-4">Navigation</h4>
+                  <ul class="space-y-2">
+                      <li><a href="/" class="hover:text-blue-400">Page principale</a></li>
+                      <li><a href="/decouvrir/histoire/" class="hover:text-blue-400">À propos</a></li>
+                      <li><a href="/#contacts" class="hover:text-blue-400">Contacts</a></li>
+                      <li><a href="/privacy.php" class="hover:text-blue-400">Politique de confidentialité</a></li>
+                      <li><a href="/terms.php" class="hover:text-blue-400">Conditions d'utilisation</a></li>
+                  </ul>
                 </div>
+
                 <div>
                     <h4 class="text-xl font-bold mb-4">Contacts</h4>
                     <p class="text-gray-400">Email: consultation@ittechservices.com</p>
-                    <p class="text-gray-400">Phone: +33987654321</p>
-                    <p class="text-gray-400">Address: 12 Rue de la Liberté, 75015 Paris, France</p>
+                    <p class="text-gray-400">Phone: +33 6 72 58 39 14</p>
+                    <p class="text-gray-400">Address: 15 Rue du Général Leclerc, 78000, Versailles, France</p>
                 </div>
             </div>
             <div class="border-t border-gray-700 mt-8 pt-4 text-center text-gray-400">
-            &copy; <?php echo date("Y"); ?> IT TECH SERVICES & CONSULTATION LTD. All Rights Reserved.
+            &copy; <?php echo date("Y"); ?> IT TECH SERVICES & CONSULTATION LTD. Tous Droits Réservés.
             </div>
         </div>
     </footer>
